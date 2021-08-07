@@ -15,7 +15,7 @@ var powerPicked;
 var score = -1;
 
 function setup() {
-  createCanvas(1400, 400);
+  var cnv = createCanvas(1400, 400);
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
